@@ -59,6 +59,7 @@ div {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	padding: 1.5%;
 }
 
 .top, .mid, .bottom {
@@ -75,8 +76,13 @@ div {
 
 p {
 	color: white;
+}
+
+.top-text, .bottom-text {
 	font-size: 20px;
 	padding: 1%;
 }
 
+.bottom {
+}
 
