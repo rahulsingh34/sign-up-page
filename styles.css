@@ -24,7 +24,7 @@ div {
 
 .right {
 	width: 35%;
-	background-image: url("lights.jpg");
+	background-image: url("imgs/lights.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
