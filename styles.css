@@ -20,23 +20,35 @@ div {
 .main {
 	height: 100vh;
 	display: flex;
+	background: var(--dgrey);
+	align-items: center;
+	justify-content: center;
+}
+
+.bucket {
+	display: flex;
+	height: 65%;
+	width: 80%;
+	border-radius: 20px;
 	background: linear-gradient(black, var(--dgrey));
+	box-shadow: 5px 5px 15px 2px var(--mgrey);
 }
 
 .left {
 	width: 35%;
-	background-image: url("imgs/lights.jpg");
+	background-image: url("imgs/blackout.jpeg");
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
 	display: flex;
-	padding-top: 16.2vh;
+	padding-top: 12.5vh;
+	border-radius: 20px 0 0 20px;
 }
 
 .shaded {
-	height: 200px;
-	width: 100%;
-	background: rgba(0, 0, 0, 0.6);
+	height: 35%;
+	width:100%;
+	background: rgba(0, 0, 0, 0.7);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -49,8 +61,8 @@ div {
 }
 
 #img {
-	max-width: min(50vh, 90%);
-	max-height: min(50vh ,75%);
+	max-width: min(20vh, 90%);
+	max-height: min(20vh ,75%);
 }
 
 .right {
@@ -59,19 +71,21 @@ div {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	padding: 1.5%;
+	padding: 2.5%;
 }
 
 .top, .mid, .bottom {
 	border: blue solid;
 	width: 100%;
-	height: 25%;
+	height: 50%;
 }
 
-.top {
+
+.top, .bottom {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	height: 25%;
 }
 
 p {
@@ -79,10 +93,37 @@ p {
 }
 
 .top-text, .bottom-text {
-	font-size: 20px;
-	padding: 1%;
+	font-size: 2.5vmin;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
-.bottom {
+.login {
+	font-size: 1.5vmin;
+	padding-top: 2%;
+}
+
+.login p {
+	color: var(--dsilver);
+}
+
+button {
+	width: 175px;
+	height: 35px;
+	border: transparent;
+	border-radius: 20px;
+	color: white;
+	font-weight: 900;
+	background-color: var(--mgrey);
+}
+
+button:hover,
+button:focus { 
+  border: var(--dsilver) solid 1px;
+  transition-duration: 1s;
+}
+
+#action {
+	color: white;
 }
 
