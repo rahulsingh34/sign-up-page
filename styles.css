@@ -103,12 +103,12 @@ p {
 }
 
 button {
-	width: 27.5vmin;
+	width: 20vmin;
 	height: 5vmin;
 	border: transparent;
 	border-radius: 20px;
 	color: white;
-	font-size: 2vmin;
+	font-size: 1.75vmin;
 	font-weight: 900;
 	background-color: var(--mgrey);
 }
